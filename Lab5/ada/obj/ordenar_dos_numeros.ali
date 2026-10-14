@@ -1,0 +1,25 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ordenar_dos_numeros%b	ordenar_dos_numeros.adb	87ba9d15 NE OO SU IL
+W intercambiar%b	intercambiar.adb	intercambiar.ali
+
+D intercambiar.adb	20261014114852 ad474444 intercambiar%b
+D ordenar_dos_numeros.adb  20261014115354 2afdd951 ordenar_dos_numeros%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [ordenar_dos_numeros standard 2 11 none]
+G r c none [ordenar_dos_numeros standard 2 11 none] [intercambiar standard 1 11 none]
+X 1 intercambiar.adb
+1U11*intercambiar 2|1w6 6s6
+X 2 ordenar_dos_numeros.adb
+2U11*ordenar_dos_numeros 2b11 2=31 2=34 9l5 9t24
+2i31 n1{integer} 5r8 6m19
+2i34 n2{integer} 5r13 6m23
+

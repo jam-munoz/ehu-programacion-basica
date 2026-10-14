@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\labo5.gpr
+20261014111626 77a82bbd91f4014d13ecb96578bd970d
+[BOUND OBJECT FILES]
+C:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\decimal_a_binario.o
+C:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\intercambiar.o
+C:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\ordenar_dos_numeros.o
+C:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\ordenar_tres_numeros.o
+C:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\prueba_decimal_a_binario.o
+C:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\prueba_ordenar_tres_numeros.o
+C:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\
+-LC:\Users\1309465\proyectos\plantillas_para_alumnos_lab5\ada\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

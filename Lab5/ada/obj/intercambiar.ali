@@ -1,0 +1,21 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U intercambiar%b	intercambiar.adb	ad474444 NE OO SU IL
+
+D intercambiar.adb	20261014114852 ad474444 intercambiar%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [intercambiar standard 1 11 none]
+X 1 intercambiar.adb
+1U11*intercambiar 1b11 1=24 1=29 8l5 8t17
+1i24 num1{integer} 5r11 6m4
+1i29 num2{integer} 6r12 7m4
+3i5 aux{integer} 5m4 7r12
+

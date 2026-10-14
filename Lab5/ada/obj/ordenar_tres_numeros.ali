@@ -1,0 +1,27 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ordenar_tres_numeros%b  ordenar_tres_numeros.adb  123ccc7f NE OO SU IL
+W ordenar_dos_numeros%b	ordenar_dos_numeros.adb	ordenar_dos_numeros.ali
+
+D intercambiar.adb	20261014114852 ad474444 intercambiar%b
+D ordenar_dos_numeros.adb  20261014115354 2afdd951 ordenar_dos_numeros%b
+D ordenar_tres_numeros.adb  20261014115348 38c1152e ordenar_tres_numeros%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [ordenar_tres_numeros standard 2 11 none]
+G r c none [ordenar_tres_numeros standard 2 11 none] [ordenar_dos_numeros standard 2 11 none]
+X 2 ordenar_dos_numeros.adb
+2U11*ordenar_dos_numeros 3|1w6 8s5 9s5 10s5
+X 3 ordenar_tres_numeros.adb
+2U11*ordenar_tres_numeros 2b11 2=32 2=35 2=38 11l5 11t25
+2i32 n1{integer} 8m25 10m25
+2i35 n2{integer} 8m28 9m25 10m28
+2i38 n3{integer} 9m28
+
