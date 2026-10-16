@@ -1,18 +1,18 @@
 def suma_binaria(????):
-    suma=0;
-    llevada=0;
-    
-   
+	suma=0;
+	llevada=0;
 
 
 
-    return(????);
+
+
+	return(????);
 
 binario1=0;
 binario2=0;
 resultado=suma_binaria(binario1,binario2);
 print("0 + 0 en binario es 0 y segun tu programa es %d." %resultado);
-    
+
 binario1=0;
 binario2=1;
 resultado=suma_binaria(binario1,binario2);

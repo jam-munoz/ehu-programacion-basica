@@ -1,10 +1,10 @@
 with Ada.Text_Io;
 use Ada.Text_Io;
 
-with es_capicua;
+with es_primo;
 
-procedure prueba_es_capicua is 
-   -- este programa hace llamadas a la funcion capicua y es util
+procedure prueba_es_primo is
+   -- este programa hace llamadas a la funcion es_primo y es util
    -- para comprobar si su funcionamiento es correcto
 
    package Boolean_E_S is new Enumeration_Io(Boolean);
@@ -12,37 +12,38 @@ procedure prueba_es_capicua is
    -- esto sirve para leer y escribir valores de tipo Boolean
 
 begin
-   Put("Primera prueba: capicua(1) debe ser true y el resultado es ");
-   Put(es_capicua(1));
+   Put("Primera prueba: es_primo(1) debe ser false y el resultado es ");
+   Put(es_primo(1));
    New_Line(3);
    Put_Line("Pulsa return para continuar");
    Skip_Line;
    -- esta instruccion lee un caracter "return", es decir, sirve para
    -- esperar a que el usuario pulse return
 
-   Put("Segunda prueba: capicua(232) debe ser true y el resultado es ");
-   Put(es_capicua(232));
+   Put("Segunda prueba: es_primo(2) debe ser true y el resultado es ");
+   Put(es_primo(2));
    New_Line(3);
    Put_Line("Pulsa return para continuar");
    Skip_Line;
 
-   Put("Tercera prueba: capicua(1234554321) debe ser true y el resultado es ");
-   Put(es_capicua(1234554321));
+   Put("Tercera prueba: es_primo(3) debe ser true y el resultado es ");
+   Put(es_primo(3));
    New_Line(3);
    Put_Line("Pulsa return para continuar");
    Skip_Line;
 
-   Put("Cuarta prueba: capicua(1234567) debe ser false y el resultado es ");
-   Put(es_capicua(1234567));
+   Put("Cuarta prueba: es_primo(49) debe ser false y el resultado es ");
+   Put(es_primo(49));
    New_Line(3);
    Put_Line("Pulsa return para continuar");
    Skip_Line;
 
 
-   Put("Quinta prueba: capicua(12321) debe ser true y el resultado es ");
-   Put(es_capicua(12321));
+   Put("Quinta prueba: es_primo(137) debe ser true y el resultado es ");
+   Put(es_primo(137));
    New_Line(3);
    Put_Line("Pulsa return para continuar");
    Skip_Line;
 
-end prueba_es_capicua;
+end prueba_es_primo;
+
