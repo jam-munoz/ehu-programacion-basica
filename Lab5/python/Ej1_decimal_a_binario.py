@@ -2,7 +2,7 @@ def decimal_a_binario(num):
 	binario=0
 	pow=1
 	while num > 0:
-		binario += (num % 2 * pow)
+		binario += (num & 1) * pow
 		num //= 2
 		pow *= 10
 	return(binario)

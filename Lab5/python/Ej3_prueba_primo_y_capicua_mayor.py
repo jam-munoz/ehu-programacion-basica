@@ -15,16 +15,21 @@ def es_primo(num):
 		i = num
 	elif num % 2 == 0 or num % 3 == 0:
 		primo = False
-	while i * i <= num or primo:
+	while i * i <= num and primo:
 		if num % i == 0 or num % (i + 2) == 0:
 			primo = False
 		i += 6
 	return primo
 
 def primo_y_capicua_mayor(num):
-	while not es_primo(num):
-		num += 1
+	num += 1
+	encontrado = False
+	while not encontrado:
 		while not es_capicua(num):
+			num += 1
+		if es_primo(num):
+			encontrado = True
+		else:
 			num += 1
 	return num
 

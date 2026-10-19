@@ -6,7 +6,8 @@ procedure fibonacci_aux(n, total : Integer) is
 	res : Integer;
 begin
 	if n /= 0 then
-		put(fibonacci_main(total - n));
+		put(fibonacci_main(total - n), width => 1);
+		put(" ");
 		fibonacci_aux(n - 1, total);
 	end if;
 end fibonacci_aux;
