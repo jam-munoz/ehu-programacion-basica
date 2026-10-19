@@ -1,12 +1,32 @@
 def es_capicua(num):
-
+	n = num
+	reves = 0
+	while n > 0:
+		reves = reves * 10 + n % 10
+		n //= 10
+	return (num == reves)
 
 def es_primo(num):
-
-
+	primo = True
+	i = 5
+	if num < 2:
+		primo = False
+	elif num < 4:
+		i = num
+	elif num % 2 == 0 or num % 3 == 0:
+		primo = False
+	while i * i <= num or primo:
+		if num % i == 0 or num % (i + 2) == 0:
+			primo = False
+		i += 6
+	return primo
 
 def primo_y_capicua_mayor(num):
-
+	while not es_primo(num):
+		num += 1
+		while not es_capicua(num):
+			num += 1
+	return num
 
 
 def prueba():
@@ -37,3 +57,4 @@ def prueba():
 	print('')
 
 #Falta hacer la llamada al programa de pruebas
+prueba()

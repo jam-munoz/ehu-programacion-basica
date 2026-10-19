@@ -1,11 +1,10 @@
 def decimal_a_binario(num):
-	aux=num
 	binario=0
-	cont=0
-
-
-
-
+	pow=1
+	while num > 0:
+		binario += (num % 2 * pow)
+		num //= 2
+		pow *= 10
 	return(binario)
 
 def prueba():

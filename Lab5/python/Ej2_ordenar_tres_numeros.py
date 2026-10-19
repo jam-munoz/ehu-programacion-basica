@@ -1,16 +1,17 @@
-def intercambiar (????):
+def intercambiar (a, b):
 
+	return b,a
+
+def ordenar_dos_numeros (a, b):
+	if a < b:
+		a, b = intercambiar(a, b)
 	return a,b
 
-def ordenar_dos_numeros (???):
-
-	return a,b
-
-def ordenar_tres_numeros (????):
-	???=ordenar_dos_numeros(???)
-	???=ordenar_dos_numeros(???)
-	???=ordenar_dos_numeros(???)
-	return ???
+def ordenar_tres_numeros (a, b, c):
+	a, b = ordenar_dos_numeros(a, b)
+	b, c = ordenar_dos_numeros(b, c)
+	a, b = ordenar_dos_numeros(a, b)
+	return a, b, c
 
 def prueba():
 	#totalmente desordenados
