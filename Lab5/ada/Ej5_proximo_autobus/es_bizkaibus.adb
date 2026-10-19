@@ -6,6 +6,6 @@ function es_bizkaibus(codigo : Integer) return Boolean is
    --- Post: true si el codigo de autobus comienza por 2 o por 3
 	digito : Integer;
 begin
-	digito := codigo / 1000;
+	digito := codigo / 10000;
 	return (digito = 2 or digito = 3);
 end es_bizkaibus;

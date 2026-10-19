@@ -6,6 +6,6 @@ function es_regional(codigo : Integer) return Boolean is
    --- Post: true si el codigo de autobus comienza por 48
 	digito : Integer;
 begin
-	digito := codigo / 100;
+	digito := codigo / 1000;
 	return (digito = 48);
 end es_regional;

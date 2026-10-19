@@ -7,7 +7,7 @@ function es_nacional(codigo : Integer) return Boolean is
 	digito : Integer;
 	nacional : Boolean;
 begin
-	digito := n / 100;
+	digito := codigo / 1000;
 	nacional := true;
 	if codigo < 100 or codigo > 9999 then
 		nacional := false;

@@ -5,6 +5,6 @@ function es_bilbobus(codigo : Integer) return Boolean is
 	--- Post: true si el codigo de autobus comienza por 1
 	digito : Integer;
 begin
-	digito := codigo / 1000;
+	digito := codigo / 10000;
 	return (digito = 1);
 end es_bilbobus;

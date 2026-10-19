@@ -20,7 +20,7 @@ begin
 	resultado:=proximo_autobus(codigo_bus, hora, minutos, tipo_dia);
 	put_line("Caso 1: Son las " & hora'image & " y " & minutos'image & " horas de un dia " & tipo_dia'img);
 	put_line("El proximo bus con codigo " & codigo_bus'img & " sale en " & esperado'img & " minutos");
-	put_line("	Y segun tu programa sale en: " & resultado'img & " minutos");
+	put_line("   Y segun tu programa sale en: " & resultado'img & " minutos");
 	new_line;
 	put_line("#################################");
 
@@ -33,7 +33,7 @@ begin
 	resultado:=proximo_autobus(codigo_bus, hora, minutos, tipo_dia);
 	put_line("Caso 2: Son las " & hora'image & " y " & minutos'image & " horas de un dia " & tipo_dia'img);
 	 put_line("El proximo bus con codigo " & codigo_bus'img & " sale en " & esperado'img & " minutos");
-	put_line("	Y segun tu programa sale en: " & resultado'img & " minutos");
+	put_line("   Y segun tu programa sale en: " & resultado'img & " minutos");
 	new_line;
 	put_line("#################################");
 
@@ -47,7 +47,7 @@ begin
 	resultado:=proximo_autobus(codigo_bus, hora, minutos, tipo_dia);
 	put_line("Caso 3: Son las " & hora'image & " y " & minutos'image & " horas de un dia " & tipo_dia'img);
 	put_line("El proximo bus con codigo " & codigo_bus'img & " sale en " & esperado'img & " minutos");
-	put_line("	Y segun tu programa sale en: " & resultado'img & " minutos");
+	put_line("   Y segun tu programa sale en: " & resultado'img & " minutos");
 	new_line;
 	put_line("#################################");
 

@@ -9,13 +9,13 @@ function frecuencia_de_salida(tipo_de_autobus : Integer; tipo_de_dia : Character
 	frecuencia : Integer;
 begin
 	if tipo_de_autobus = 1 then
-		if tipo_de_dia = L then
+		if tipo_de_dia = 'L' then
 			frecuencia := 10;
 		else
 			frecuencia := 15;
 		end if;
 	elsif tipo_de_autobus = 2 then
-		if tipo_de_dia /= F then
+		if tipo_de_dia /= 'F' then
 			frecuencia := 20;
 		else
 			frecuencia := 30;
@@ -23,15 +23,15 @@ begin
 	elsif tipo_de_autobus = 3 then
 		frecuencia := 30;
 	elsif tipo_de_autobus = 4 then
-		if tipo_de_dia = L then
+		if tipo_de_dia = 'L' then
 			frecuencia := 90;
-		elsif tipo_de_dia = S then
+		elsif tipo_de_dia = 'S' then
 			frecuencia := 120;
 		else
 			frecuencia := 240;
 		end if;
 	elsif tipo_de_autobus = 5 then
-		if tipo_de_dia /= F then
+		if tipo_de_dia /= 'F' then
 			frecuencia := 480;
 		else
 			frecuencia := 720;

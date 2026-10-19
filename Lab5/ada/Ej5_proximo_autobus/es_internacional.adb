@@ -6,6 +6,6 @@ function es_internacional(codigo : Integer) return Boolean is
    --- Post: true si el codigo de autobus comienza por 34
 	digito : Integer;
 begin
-	digito := codigo / 1000;
+	digito := codigo / 10000;
 	return (digito = 34);
 end es_internacional;
