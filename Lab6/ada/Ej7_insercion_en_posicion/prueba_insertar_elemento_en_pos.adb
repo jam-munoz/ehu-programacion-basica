@@ -2,7 +2,7 @@ with Ada.Text_Io; use Ada.Text_Io;
 with vectores; use vectores;
 with escribir_lista, insertar_elemento_en_pos;
 
-procedure prueba_insertar_elemento_en_pos is 
+procedure prueba_insertar_elemento_en_pos is
    -- este programa hace llamadas al subprograma insertar_elemento_en_pos
    -- para comprobar si su funcionamiento es correcto
 
@@ -10,9 +10,9 @@ Lista1: Lista_Enteros;
 pos,num: integer;
 
 begin
-   
+
    -- ningun elemento y la posicion de insercion sera 1
-   
+
    pos:=1;
    num:=2;
    Lista1.Cont := 0;
@@ -29,7 +29,7 @@ begin
    new_line(3);
 
    -- lista con varios elementos, y anadir al comienzo
-   
+
    pos:=1;
    num:=2;
    Lista1.Numeros(1) := 3; Lista1.Numeros(2) := 1; Lista1.Numeros(3) := 4;
@@ -47,7 +47,7 @@ begin
    new_line(3);
 
    -- lista con varios elementos, y anadir al final
-  
+
    Lista1.Numeros(1) := 3; Lista1.Numeros(2) := 1; Lista1.Numeros(3) := 4;
    Lista1.Numeros(4) := 8; Lista1.Numeros(5) := 6;
    Lista1.Cont := 5;
@@ -63,9 +63,9 @@ begin
    put_line("Pulsa return para continuar");
    skip_line;
    new_line(3);
-   
+
    -- lista con varios elementos, y anadir en la mitad
-  
+
    Lista1.Numeros(1) := 3; Lista1.Numeros(2) := 1; Lista1.Numeros(3) := 4;
    Lista1.Numeros(4) := 8; Lista1.Numeros(5) := 6;
    Lista1.Cont := 5;
@@ -81,8 +81,5 @@ begin
    put_line("Pulsa return para continuar");
    skip_line;
    new_line(3);
-   
-   
+
 end prueba_insertar_elemento_en_pos;
-
-

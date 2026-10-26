@@ -57,4 +57,3 @@ begin
 
 
 end prueba_esta_en_vector_ordenado;
-

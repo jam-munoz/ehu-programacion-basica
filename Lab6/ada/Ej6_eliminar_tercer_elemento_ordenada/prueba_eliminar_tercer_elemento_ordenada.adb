@@ -32,4 +32,3 @@ begin
 
 
 end prueba_eliminar_tercer_elemento_ordenada;
-
