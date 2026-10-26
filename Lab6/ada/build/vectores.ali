@@ -1,0 +1,27 @@
+V "GNAT Lib v15"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U vectores%s		vectores.ads		444ac3e5 NE OO PK IL
+
+D system.ads		20260612061003 14286b0f system%s
+D vectores.ads		20160930141528 444ac3e5 vectores%s
+G a e
+G c Z s s [vector_de_enterosIP vectores 5 9 none]
+G c Z s s [lista_enterosIP vectores 7 9 none]
+G c Z s s [vector_de_realesIP vectores 13 9 none]
+G c Z s s [vector_de_booleanosIP vectores 14 9 none]
+G c Z s s [vector_de_caracteresIP vectores 15 9 none]
+X 2 vectores.ads
+1K9*vectores 17l5 17e13
+3i4*Max_Elem{integer} 9r44
+5A9*Vector_De_Enteros(integer)<integer> 9r20
+7R9*Lista_Enteros 11e17
+9a10*Numeros{5A9}
+10i10*Cont{integer}
+13A9*Vector_De_Reales(float)<integer>
+14A9*Vector_De_Booleanos(boolean)<integer>
+15A9*Vector_De_Caracteres(character)<integer>
+

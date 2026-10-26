@@ -1,0 +1,23 @@
+V "GNAT Lib v15"
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U rotar_derecha%b	rotar_derecha.adb	4f77c58a NE OO SU IL
+W vectores%s		vectores.ads		vectores.ali
+
+D rotar_derecha.adb	20261026110044 0b3d066f rotar_derecha%b
+D system.ads		20260612061003 14286b0f system%s
+D vectores.ads		20160930141528 444ac3e5 vectores%s
+G a e
+G c Z b b [rotar_derecha standard 3 11 none]
+X 1 rotar_derecha.adb
+3U11*rotar_derecha 3b11 3=25 16l5 16t18
+3a25 arr{3|5A9} 9r17 9r21 10r14 11r20 12m17 12r27 15m9 15r13
+7i9 temp{integer} 9m9 15r27
+7i15 i{integer} 10m9 11r16 12r21 12r31 13m17 13r22
+X 3 vectores.ads
+1K9*vectores 1|1w6 1r20 3|17e13
+5A9*Vector_De_Enteros(integer)<integer> 1|3r38
+

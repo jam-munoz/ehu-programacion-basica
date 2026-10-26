@@ -1,0 +1,69 @@
+V "GNAT Lib v15"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+
+U prueba_rotar_derecha%b  prueba_rotar_derecha.adb  94511d63 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W escribir_vector%b	escribir_vector.adb	escribir_vector.ali
+W rotar_derecha%b	rotar_derecha.adb	rotar_derecha.ali
+W vectores%s		vectores.ads		vectores.ali
+
+D ada.ads		20260612061003 76789da1 ada%s
+D a-except.ads		20260612061003 e7970cd9 ada.exceptions%s
+D a-inteio.ads		20260612061003 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20260612061003 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260612061003 17477cbd ada.streams%s
+D a-string.ads		20260612061003 90ac6797 ada.strings%s
+D a-sttebu.ads		20260612061003 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260612061003 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260612061003 fbca0ad5 ada.tags%s
+D a-textio.ads		20260612061003 34ef47de ada.text_io%s
+D a-tiinio.ads		20260612061003 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20260612061003 0e9b276f ada.unchecked_conversion%s
+D escribir_vector.adb	20261026105819 6ef953ff escribir_vector%b
+D interfac.ads		20260612061003 9111f9c1 interfaces%s
+D i-cstrea.ads		20260612061003 ffd01b9d interfaces.c_streams%s
+D prueba_rotar_derecha.adb  20261026105744 8130ccc8 prueba_rotar_derecha%b
+D rotar_derecha.adb	20261026110044 0b3d066f rotar_derecha%b
+D system.ads		20260612061003 14286b0f system%s
+D s-crtl.ads		20260612061003 beb39b9e system.crtl%s
+D s-exctab.ads		20260612061003 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260612061003 dc5161d4 system.file_control_block%s
+D s-parame.ads		20260612061003 3597fc11 system.parameters%s
+D s-putima.ads		20260612061003 17291fe4 system.put_images%s
+D s-secsta.ads		20260612061003 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260612061003 5d88fdea system.soft_links%s
+D s-stache.ads		20260612061003 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260612061003 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260612061003 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260612061003 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260612061003 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260612061003 d9032363 system.wch_con%s
+D vectores.ads		20160930141528 444ac3e5 vectores%s
+G a e
+G c Z b b [prueba_rotar_derecha standard 5 11 none]
+G r c none [prueba_rotar_derecha standard 5 11 none] [rotar_derecha standard 3 11 none]
+G r c none [prueba_rotar_derecha standard 5 11 none] [escribir_vector standard 4 11 none]
+X 1 ada.ads
+18K9*Ada 22e8 16|1r6 1r23
+X 10 a-textio.ads
+58K13*Text_IO 785e16 16|1w10 1r27
+284U14*New_Line 16|17s4
+295U14*Skip_Line 16|19s4
+565U14*Put_Line 16|11s4 12s4 13s4 14s4 18s4
+X 13 escribir_vector.adb
+4U11*escribir_vector 16|3w21 16s4
+X 16 prueba_rotar_derecha.adb
+5U11*prueba_rotar_derecha 5b11 20l5 20t25
+8a1 Vector1{32|5A9} 10m4 15m18 15r18 16r20
+X 17 rotar_derecha.adb
+3U11*rotar_derecha 16|3w6 15s4
+X 32 vectores.ads
+1K9*vectores 16|2w6 2r20 32|17e13
+5A9*Vector_De_Enteros(integer)<integer> 16|8r10
+
