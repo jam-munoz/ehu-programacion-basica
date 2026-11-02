@@ -18,7 +18,7 @@ begin
 			found := true;
 		elsif N < arr(mid) then
 			last := mid - 1;
-		elsif N > arr(mid) then
+		else
 			first := mid + 1;
 		end if;
 		mid := (first + last) / 2;
