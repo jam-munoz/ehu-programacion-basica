@@ -5,18 +5,28 @@ def posicion_en_matriz(M,num):
 #post: si num esta en la matriz entonces PosF contiene el valor de la fila en la que est�
 #	  y PosC la posici�n de la columna. Si Num aparece varias veces, se devuelve los valores
 #	  PosF y PosC relativos a su primera aparicion. Si no esta, ambas PosF y PosC valdran -1
-
 	numFilas = 	len(M)
 	numCols = len(M[0])
-
-
-	return ?????
+	found = False
+	y = 0
+	while not found and y < numFilas:
+		x = 0
+		while not found and x < numCols:
+			if num == M[y][x]:
+				found = True
+			else:
+				x += 1
+		if not found:
+			y += 1
+	if not found:
+		x = -1
+		y = -1
+	return y, x
 
 
 def principal():
 	cols=[None]*9
 	Matriz=[cols]*10
-
 	#el elemento esta al comienzo
 	print("La matriz es: ")
 	Matriz[0]=[1,2,3,4,5,6,7,8,9]
@@ -33,8 +43,8 @@ def principal():
 		print(Matriz[fila])
 	print("posicion_en_matriz(Matriz,1)  deberia devolver (0,0)")
 	print("y el resultado es:")
-	(??????)=posicion_en_matriz(Matriz,1)
-	print(??????)
+	(x, y)=posicion_en_matriz(Matriz,1)
+	print(x, y)
 
 	#el elemento esta en la mitad de la matriz
 	print("La matriz es: ")
@@ -52,8 +62,8 @@ def principal():
 		print(Matriz[fila])
 	print("posicion_en_matriz(Matriz,21) deberia devolver (2,0)")
 	print("y el resultado es:")
-	(??????)=posicion_en_matriz(Matriz,21)
-	print(??????)
+	(x, y)=posicion_en_matriz(Matriz,21)
+	print(x, y)
 
 	#el elemento esta al final
 	print("La matriz es: ")
@@ -72,8 +82,8 @@ def principal():
 
 	print("posicion_en_matriz(Matriz,100)  deberia devolver (9,8)")
 	print("y el resultado es:")
-	(??????)=posicion_en_matriz(Matriz,100)
-	print (??????)
+	(x, y)=posicion_en_matriz(Matriz,100)
+	print (x, y)
 
 	#el elemento no esta
 	print("La matriz es: ")
@@ -92,7 +102,7 @@ def principal():
 
 	print("posicion_en_matriz(Matriz,200)  deberia devolver (-1,-1)")
 	print("y el resultado es:")
-	(??????)=posicion_en_matriz(Matriz,200)
-	print(??????)
+	(x, y)=posicion_en_matriz(Matriz,200)
+	print(x, y)
 
 principal()

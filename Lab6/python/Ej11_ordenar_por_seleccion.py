@@ -1,10 +1,11 @@
 def escribir_vector(V):
-	??????????
+	i = 0
+	while i < len(V):
+		print(V[i])
+		i += 1
 
-def intercambiar(V,posA,posB):
-	??????????
-
-	return(V)
+def intercambiar(a, b):
+	return b, a
 
 def buscar_posicion_del_minimo(V,posComienzo):
 #Pre:	  0 <= posComienzo < len(V)
@@ -15,7 +16,18 @@ def buscar_posicion_del_minimo(V,posComienzo):
 	return(???)
 
 def ordenar_por_seleccion(V):
-	????
+	i = 1
+	minimo = V[0]
+	intercambios : True
+	while intercambios:
+		intercambios : False
+		while i < len(V):
+			posicion = i - 1
+			if V[i] < minimo:
+				minimo = V[i]
+				intercambios = True
+			i += 1
+
 
 	return(V)
 

@@ -3,8 +3,10 @@ def escribir_vector(V):
 #Pre:-
 #Salida: se muestra por pantalla los elementos del array
 #Post:
-	for i in range(len(V)):
+	i = 0
+	while i < len(V):
 		print(V[i])
+		i += 1
 
 def rotar_derecha(V):
 #Entrada: un array de enteros
@@ -12,10 +14,13 @@ def rotar_derecha(V):
 #Salida: un array de enteros
 #Post: el array de salida tiene los elementos del array de entrada desplazados
 #una posicion a la derecha
-	temp = V[len(V) - 1]
-	for i in range(len(V) - 1, 1):
+	i = len(V) - 1
+	temp = V[i]
+	while i > 0:
 		V[i] = V[i - 1]
+		i -= 1
 	V[0] = temp
+	return V
 
 def principal():
 	#inicializar
@@ -28,6 +33,5 @@ def principal():
 	print(" al rotar los elementos el resultado es:\n  ")
 	vector1=rotar_derecha(vector1)
 	escribir_vector(vector1)
-
 
 principal()

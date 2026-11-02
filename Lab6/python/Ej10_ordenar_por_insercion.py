@@ -1,20 +1,35 @@
 def escribir_vector(V):
-	?????
+	i = 0
+	while i < len(V):
+		print(V[i])
+		i += 1
+
+def intercambiar(a, b):
+	return b, a
 
 def desplazar_una_posicion_a_la_derecha(V,posActual,posComienzo):
-	?????
-
-	return(V);
+	i = len(V) - 1
+	temp = V[i]
+	while i > 0:
+		V[i] = V[i - 1]
+		i -= 1
+	V[0] = temp
+	return V
 
 def ordenar_por_insercion(V):
-	??????
-	?????
+	i = 1
+	while i < len(V):
+		key = V[i]
+		j = i - 1
+		while key < V[j] and j >= 0:
+			V[j + 1], V[j] = intercambiar(V[j + 1], V[j])
+			j -= 1
+		i += 1
 	return(V)
 
-def buscar_posicion_de_insercion(V,posActual,elem):
-	?????
-
-	return(???)
+#def buscar_posicion_de_insercion(V,posActual,elem):
+#	?????
+#	return(???)
 
 
 
