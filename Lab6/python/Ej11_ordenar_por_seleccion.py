@@ -7,28 +7,29 @@ def escribir_vector(V):
 def intercambiar(a, b):
 	return b, a
 
-def buscar_posicion_del_minimo(V,posComienzo):
+#def buscar_posicion_del_minimo(V,posComienzo):
 #Pre:	  0 <= posComienzo < len(V)
 #Post:  pos_min contiene la posicion del valor minimo de los
 #	   comprendidos entre posComienzo y len(V)
-		?????
-
-	return(???)
+#		?????
+#	return(???)
 
 def ordenar_por_seleccion(V):
 	i = 1
-	minimo = V[0]
 	intercambios : True
 	while intercambios:
 		intercambios : False
+		posicion = i - 1
+		minimo = V[posicion]
 		while i < len(V):
-			posicion = i - 1
 			if V[i] < minimo:
 				minimo = V[i]
+				indice = i
 				intercambios = True
 			i += 1
-
-
+		if intercambios:
+			V[posicion], V[indice] = intercambiar(V[posicion], V[indice])
+		i = posicion + 2
 	return(V)
 
 def principal():
