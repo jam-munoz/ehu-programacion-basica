@@ -9,5 +9,5 @@ function es_palindromo(C : in Cadena) return Boolean is
 --       La funcion obtiene el resultado mediante una estrategia RECURSIVA.
    Inicio : Integer := 1;
 begin
-   return es_palindromo_recursivo(Inicio, C);
+   return es_palindromo_recursivo(Inicio, C.Long, C);
 end es_palindromo;
