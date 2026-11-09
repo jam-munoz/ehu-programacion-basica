@@ -8,14 +8,12 @@ procedure eliminar_tercer_elemento_ordenada(lst : in out Lista_Enteros) is
 begin
 	i := 3;
 	if lst.cont = 3 then
-		lst.Numeros(3) := 0;
 		lst.cont := lst.cont - 1;
 	elsif lst.cont > 3 then
 		while i < lst.Cont loop
 			lst.Numeros(i) := lst.Numeros(i + 1);
 			i := i + 1;
 		end loop;
-		lst.Numeros(i) := 0;
 		lst.cont := lst.cont - 1;
 	end if;
 end eliminar_tercer_elemento_ordenada;

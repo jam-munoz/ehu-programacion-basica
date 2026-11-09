@@ -1,0 +1,17 @@
+V "GNAT Lib v2021"
+P ZX
+
+RN
+
+U datos2%s		datos2.ads		7fe25e5f NE OO PK IL
+
+D datos2.ads		20261109121214 7fe25e5f datos2%s
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s s [cadenaIP datos2 3 8 none]
+X 1 datos2.ads
+1K9*datos2 8l5 8e11
+3R8*Cadena 6e13
+4i6*Long{integer}
+5a6*Caracteres{string}
+

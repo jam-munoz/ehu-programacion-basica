@@ -1,0 +1,20 @@
+V "GNAT Lib v2021"
+P ZX
+
+RN
+
+U def_datos%s		def_datos.ads		5008cfd3 NE OO PK
+
+D def_datos.ads		20261109110648 5008cfd3 def_datos%s
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s s [Tvector_de_enterosBIP def_datos 6 4 none]
+G c Z s s [lista_de_enterosIP def_datos 8 9 none]
+X 1 def_datos.ads
+2K9*Def_Datos 14l5 14e14
+4i4*Max_Elem{integer} 6r40
+6A9*Vector_De_Enteros(integer)<integer> 10r20
+8R9*Lista_De_Enteros 12e17
+10a10*Numeros{6A9}
+11i10*Cuantos{integer}
+

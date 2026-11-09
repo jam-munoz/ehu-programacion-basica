@@ -34,7 +34,6 @@ def mayor(E1: list[int], E2: list[int]) -> bool:
 		return True
 	return False
    
-   
 def resta(E1,E2) -> list[int]:
 #Pre: E1 y E2 tienen ceros en las cifras no ocupadas más significativas 
 #													(más a la izquierda)
@@ -54,14 +53,12 @@ def resta(E1,E2) -> list[int]:
 	while i >= fin:
 		rdo[i] = E1[i] - E2[i] + carry
 		if rdo[i] < 0:
-			carry = rdo[i]
-			rdo[i] = 10 - carry
+			carry = -1
+			rdo[i] = 10 + rdo[i]
 		else:
 			carry = 0
 		i -= 1
 	return rdo
-
-
 
 def prueba():
 	N1= (0, 0, 0, 0, 0, 0, 0, 0, 0, 0,

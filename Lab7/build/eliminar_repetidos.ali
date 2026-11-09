@@ -1,0 +1,30 @@
+V "GNAT Lib v2021"
+P ZX
+
+RN
+
+U eliminar_repetidos%b	eliminar_repetidos.adb	393ba57f NE OO SU IL
+W def_datos%s		def_datos.ads		def_datos.ali
+W esta%b		esta.adb		esta.ali
+
+D def_datos.ads		20261109110648 5008cfd3 def_datos%s
+D eliminar_repetidos.adb  20261109113628 53972d75 eliminar_repetidos%b
+D esta.adb		20261109113450 3aa447d9 esta%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [eliminar_repetidos standard 4 11 none]
+G r c none [eliminar_repetidos standard 4 11 none] [esta standard 3 10 none]
+X 1 def_datos.ads
+2K9*Def_Datos 14e14 2|1w6 1r21
+6A9*Vector_De_Enteros(integer)<integer>
+8R9*Lista_De_Enteros 12e17 2|5r33 6r33
+10a10*Numeros{6A9} 2|14r34 15m26 15r81
+11i10*Cuantos{integer} 2|12m20 13r30 15r50 16m26 16r53
+X 2 eliminar_repetidos.adb
+4U11*eliminar_repetidos 4b11 5>7 6<7 20l5 20t23
+5r7 Lista_Original{1|8R9} 13r15 14r19 15r66
+6r7 Lista_Resultado{1|8R9} 12m4 14r46 15m10 15r34 16m10 16r37
+9i4 i{integer} 11m4 13r10 14r42 15r89 18m7 18r12
+X 3 esta.adb
+3V10*esta{boolean} 2|2w6 14s14
+

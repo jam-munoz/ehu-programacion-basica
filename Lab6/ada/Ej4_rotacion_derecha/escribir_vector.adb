@@ -13,4 +13,3 @@ begin
    end loop;
    new_line;
 end escribir_vector;
-

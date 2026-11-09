@@ -1,0 +1,28 @@
+V "GNAT Lib v2021"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+
+U balanceado%b		balanceado.adb		84ecbe30 NE OO SU IL
+W datos%s		datos.ads		datos.ali
+
+D balanceado.adb	20261109120440 074812b6 balanceado%b
+D datos.ads		20261109114758 83a4ac86 datos%s
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [balanceado standard 3 10 none]
+X 1 balanceado.adb
+3V10*balanceado{boolean} 3b10 3>22 35l5 35t15
+3r22 C{2|3R8} 15r15 16r10 16r35 18r42 19r13 25r13
+9r4 C_aux{2|3R8} 14m4 17m10 17r24 18m10 18r27 20r13 20r37 20r54 21m13 21r27
+. 26r13 26r37 26r54 27m13 27r27
+10b4 salir{boolean} 15r30 23m13 29m13 34r15
+11i4 i{integer} 13m4 15r10 16r23 16r48 18r55 19r26 25r26 32m7 32r12
+X 2 datos.ads
+1K9*datos 1|1w6 1r17 2|8e10
+3R8*Cadena 1|3r29 9r12 2|6e13
+4i6*Long{integer} 1|14m10 15r17 17m16 17r30 18r33 20r19 20r60 21m19 21r33
+. 26r19 26r60 27m19 27r33
+5a6*Caracteres{string} 1|16r12 16r37 18m16 18r44 19r15 20r43 25r15 26r43
+

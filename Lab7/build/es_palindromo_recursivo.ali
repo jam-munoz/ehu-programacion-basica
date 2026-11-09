@@ -1,0 +1,24 @@
+V "GNAT Lib v2021"
+P ZX
+
+RN
+RV NO_RECURSION
+
+U es_palindromo_recursivo%b  es_palindromo_recursivo.adb  8b606527 NE OO SU IL
+W datos2%s		datos2.ads		datos2.ali
+
+D datos2.ads		20261109121214 7fe25e5f datos2%s
+D es_palindromo_recursivo.adb  20261109122622 f4823b78 es_palindromo_recursivo%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [es_palindromo_recursivo standard 3 10 none]
+X 1 datos2.ads
+1K9*datos2 8e11 2|1w6 1r18
+3R8*Cadena 6e13 2|3r63
+4i6*Long{integer} 2|5r18 7r48
+5a6*Caracteres{string} 2|7r12 7r35
+X 2 es_palindromo_recursivo.adb
+3V10*es_palindromo_recursivo{boolean} 3b10 3>35 3>56 8s14 12l5 12t28
+3i35 Inicio{integer} 5r7 7r23 7r55 8r38
+3r56 C{1|3R8} 5r16 7r10 7r33 7r46 8r50
+
